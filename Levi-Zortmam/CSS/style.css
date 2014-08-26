@@ -1,0 +1,230 @@
+
+/******************
+GENERAL
+******************/
+
+h2, h1{
+  color: hsla(28, 100%, 55%, 1);
+  text-transform: capitalize;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+
+p {
+  color: #444;
+  text-indent: 2em;
+  line-height: 1.9em;
+  padding: 0 5%;
+}
+
+html, p {
+  font-family: 'Merriweather', serif;
+}
+
+
+
+
+
+
+
+/******************
+PAGE
+******************/
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: hsla(360, 0%, 97%, 1);
+}
+
+#sec1, #sec3 {
+
+  border-bottom: hsla(28, 100%, 55%, 1) 1px solid;
+  margin: 5% 0;
+  background-color: white;
+}
+
+#sec1__col1, #sec1__col2 {
+  padding-top: 3%;
+  height: 500px;
+}
+
+#sec1__col1, #sec1__col2 {
+  overflow: auto;
+}
+
+
+
+
+
+
+/******************
+HEADER
+******************/
+
+#header__home {
+  width: 100%;
+  background-image: url('http://www.wallpaperup.com/uploads/wallpapers/2014/03/10/294862/db581676c08c81608099c4a5ac212e8b.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: hsla(360, 0%, 90%, 1);
+}
+
+.header__height {
+  width: 100%;
+  height: 250px;
+}
+
+
+
+
+
+
+/******************
+NAVIGATION
+******************/
+
+nav div a {
+  color: #444;
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-decoration: none;
+  padding: 2%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 -3px;
+}
+
+nav div a:hover {
+  color: #333;
+  background-color: hsla(28, 100%, 55%, 1);
+}
+
+nav {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: hsla(360, 0%, 85%, 1);
+}
+
+nav div {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+/******************
+SECTION 1
+******************/
+
+
+
+#sec1__col1 img {
+  /*padding: 0 5%;*/
+  width: 100%;
+}
+
+#sec1__col1 figure {
+  width: 80%;
+  margin: 0 auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/******************
+SECTION 2
+******************/
+
+#sec2__col1 img {
+  width: 100%;
+
+}
+
+#sec2__col2 img {
+  width: 100%;
+}
+
+#sec2__col3 img {
+  width: 100%;
+}
+
+/*.linkdin {
+  display: none;
+  max-width: 10%;
+  position: absolute;
+  margin: auto;
+  z-index: 1;
+}*/
+
+#sec2__col1 img:hover {
+  opacity: 0.4;
+}
+
+#sec2__col2 img:hover {
+  opacity: 0.4;
+}
+
+#sec2__col3 img:hover {
+  opacity: 0.4;
+}
+
+
+
+
+
+/******************
+SECTION 3
+******************/
+
+#sec3 {
+  text-align: center;
+}
+
+
+
+
+
+
+/******************
+CUSTOM MEDIA QUERIES (in addition to grid)
+******************/
+
+
+@media only screen and (max-width: 830px) {
+
+  #nav__div {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  nav div a {
+    width: 100%;
+  }
+
+
+
+@media only screen and (max-width: 480px) {
+
+  #sec2__col1, #sec2__col2, #sec2__col3 a img{
+    width: 70%;
+    margin: 0 0 0 15%;
+  }
+}
